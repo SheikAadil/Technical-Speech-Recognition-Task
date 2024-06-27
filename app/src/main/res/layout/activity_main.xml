@@ -40,6 +40,7 @@
                     android:layout_height="wrap_content"
                     android:text="Arabic" />
             </RadioGroup>
+
         </LinearLayout>
 
         <Button
@@ -54,13 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="25dp"
-            android:text="Recognized Text"
+            android:text=""
             android:textSize="18sp" />
-
-        <WebView
-            android:id="@+id/webView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="20dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
